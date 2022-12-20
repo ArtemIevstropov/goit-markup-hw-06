@@ -674,9 +674,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 }
 
 .modal-form {
-        display: flex;
         width: 100%;
-        flex-direction: column;
         padding: 40px
 }
 
@@ -789,11 +787,12 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 }
 
 .checkbox-icon {
-        display: inline-block;
+        display: flex;
         width: 16px;
         height: 15px;
         border: 1px solid;
         border-radius: 2px;
+        align-items: center;
         border-color: var(--main-text-color);
         background-color: var(--main-bg-color);
         fill: var(--main-bg-color);
@@ -832,7 +831,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 
         margin-right: auto;
         margin-left: auto;
-        display: inline-flex;
+        display: block;
         width: 200px;
         height: 50px;
         font-weight: 700;
